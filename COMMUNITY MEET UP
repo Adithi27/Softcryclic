@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Community Event Meetup Manager</title>
+  </head>
+  <body>
+    <h1>Community Event Meetup Manager</h1>
+    
+    <form>
+      <label for="event-name">Event Name:</label>
+      <input type="text" id="event-name" name="event-name"><br><br>
+      
+      <label for="event-date">Event Date:</label>
+      <input type="date" id="event-date" name="event-date"><br><br>
+      
+      <label for="event-time">Event Time:</label>
+      <input type="time" id="event-time" name="event-time"><br><br>
+      
+      <label for="event-location">Event Location:</label>
+      <input type="text" id="event-location" name="event-location"><br><br>
+      
+      <label for="event-description">Event Description:</label><br>
+      <textarea id="event-description" name="event-description" rows="10" cols="30"></textarea><br><br>
+      
+      <input type="submit" value="Create Event">
+    </form>
+    
+    <h2>Upcoming Events</h2>
+    <ul>
+      <li>Event Name 1 - Date - Time - Location</li>
+      <li>Event Name 2 - Date - Time - Location</li>
+      <li>Event Name 3 - Date - Time - Location</li>
+    </ul>
+    
+  </body>
+</html>

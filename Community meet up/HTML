@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Community Meetup</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Community Meetup</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Events</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    
+    <section id="hero">
+      <h2>Join Our Community Meetup</h2>
+      <p>Connect with like-minded people and engage in meaningful conversations.</p>
+      <button>Join Now</button>
+    </section>
+    
+    <section id="events">
+      <h2>Upcoming Events</h2>
+      <ul>
+        <li>
+          <h3>Event Name 1</h3>
+          <p>Date: September 15, 2023</p>
+          <p>Time: 7:00 PM - 9:00 PM</p>
+          <p>Location: Central Park</p>
+          <a href="#">Learn More</a>
+        </li>
+        <li>
+          <h3>Event Name 2</h3>
+          <p>Date: October 20, 2023</p>
+          <p>Time: 6:00 PM - 8:00 PM</p>
+          <p>Location: Local Library</p>
+          <a href="#">Learn More</a>
+        </li>
+      </ul>
+    </section>
+    
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We are a community of like-minded individuals who are passionate about engaging in meaningful conversations and making a positive impact in our local community.</p>
+      <p>Join us at one of our upcoming events and connect with people who share your interests and values.</p>
+    </section>
+    
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+        
+        <input type="submit" value="Send Message">
+      </form>
+    </section>
+    
+    <footer>
+      <p>&copy; 2023 Community Meetup. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
